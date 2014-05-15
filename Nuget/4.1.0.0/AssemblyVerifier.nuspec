@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<package>
+  <metadata> 
+    <id>AssemblyVerifier</id> 
+    <version>4.1.0.0</version> 
+    <authors>Jason Bock</authors> 
+    <owners>Jason Bock</owners>
+    <description>An assembly to check other assemblies to see if they are verifiable.</description> 
+    <projectUrl>http://assemblyverifier.codeplex.com/</projectUrl>
+    <licenseUrl>http://assemblyverifier.codeplex.com/license</licenseUrl>
+    <tags>netframework</tags>
+    <language>en-US</language> 
+    <dependencies>
+        <dependency id="Spackle" version="5.0.0.0" />
+    </dependencies> 
+	</metadata> 
+</package>

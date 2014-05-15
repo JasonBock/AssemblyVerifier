@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<package>
+  <metadata> 
+    <id>AssemblyVerifier</id> 
+    <version>5.0.0.0</version> 
+    <authors>Jason Bock</authors> 
+    <owners>Jason Bock</owners>
+    <description>An assembly to check other assemblies to see if they are verifiable.</description> 
+    <projectUrl>https://github.com/JasonBock/AssemblyVerifier</projectUrl>
+    <licenseUrl>https://github.com/JasonBock/AssemblyVerifier</licenseUrl>
+    <tags>netframework</tags>
+    <language>en-US</language> 
+  </metadata> 
+</package>

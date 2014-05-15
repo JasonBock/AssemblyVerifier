@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyVerifier", "AssemblyVerifier\AssemblyVerifier.csproj", "{D1D5673B-787A-4DEF-9505-A7BA3A5BDB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyVerifier.Tests", "AssemblyVerifier.Tests\AssemblyVerifier.Tests.csproj", "{89D21826-4A91-4D42-BE17-7C7732C6B83C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{AAEF0FAD-2B2F-420C-8EA2-475D90891CF0}"
+	ProjectSection(SolutionItems) = preProject
+		Assets\AllRules.ruleset = Assets\AllRules.ruleset
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1D5673B-787A-4DEF-9505-A7BA3A5BDB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D5673B-787A-4DEF-9505-A7BA3A5BDB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D5673B-787A-4DEF-9505-A7BA3A5BDB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D5673B-787A-4DEF-9505-A7BA3A5BDB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D21826-4A91-4D42-BE17-7C7732C6B83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D21826-4A91-4D42-BE17-7C7732C6B83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D21826-4A91-4D42-BE17-7C7732C6B83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D21826-4A91-4D42-BE17-7C7732C6B83C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AssemblyVerifier.vsmdi
+	EndGlobalSection
+EndGlobal
